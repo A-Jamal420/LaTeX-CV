@@ -1,0 +1,234 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Abdulrahman Jamal} \\ \vspace{1pt}
+    AI \& Data Science \\ \vspace{0.4pt}
+    Assiut, Egypt \\ \vspace{1pt}
+    \small \href{mailto:abdalrhmang16@gmail.com}{abdalrhmang16@gmail.com} \textbar{} \href{https://linkedin.com/in/abdulrahman-jamal-sweifi}{linkedin.com/in/abdulrahman-jamal-sweifi} \textbar{} 01097717102
+    \vspace{-8pt}
+\end{center}
+
+%-----------Objective-----------
+\section{Objective}
+Junior Computer Science student with a strong foundation in STEM-based problem solving and the Engineering Design Process (EDP). Possesses a strong analytical foundation from executing interdisciplinary semester projects. Currently specializing in Machine Learning and Data Analytics, leveraging a rigorous technical background to build scalable AI solutions and data-driven insights.
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Assiut University -- Faculty of Computers \& Information}{Oct. 2023 -- Present}
+      {Bachelor's degree in Computer Science, \textbf{CGPA: 3.55}}{Assiut, Egypt}
+  \resumeSubHeadingListEnd
+
+%-----------COURSES & TRAINING-----------
+\section{Courses \& Training}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Digital Egypt Pioneers Initiative (DEPI)}{Nov. 2025 -- Present}
+      {Microsoft Machine Learning Engineer Track}{Assiut, Egypt}
+      \resumeItemListStart
+        \resumeItem{Intensive track covering Prompt Engineering, Math for AI, and Python for Data Science.}
+        \resumeItem{Learning Machine Learning Techniques, Deep Learning, NLP, and Computer Vision.}
+        \resumeItem{Building scalable AI models using Azure AI Fundamentals, Azure AI Engineer Associate, and MLOps Tools.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Information Technology Institute (ITI)}{July 2024}
+      {Introduction to Programming using C\# (42 Hours)}{Assiut, Egypt}
+      \resumeItemListStart
+        \resumeItem{Completed an intensive course covering fundamental to intermediate C\# programming concepts and logic.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Winter Camp Training}{Jan. 2024 -- Mar. 2024}
+      {C++ Practical Programming Course}{Assiut, Egypt}
+      \resumeItemListStart
+        \resumeItem{Completed a 3-month, project-based course on C++ development and Software Engineering fundamentals.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------SKILLS-----------
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Technical Skills}{: C++ (Intermediate), Python, Java, C\#, Analytical SQL, OOP, Data Structures} \\
+    \textbf{Tools \& Platforms}{: Power BI, MySQL, Microsoft SQL Server, VS Code, Git/GitHub, Arduino IDE} \\
+    \textbf{Soft Skills}{: Problem Solving, Project Management, Communication, Scientific Citation, Research, Teamwork} \\
+    \textbf{Languages}{: Arabic (Native), English (Fluent $|$ C1 Advanced Certified)}
+  }}
+\end{itemize}
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+          {\href{https://bit.ly/4utWxMG}{\textbf{UV-XODES: IoT Climate Monitoring}} $|$ \emph{C++, ESP32, IoT, ThingSpeak}}{2023}
+          \resumeItemListStart
+            \resumeItem{Engineered an IoT prototype using an ESP32 and GUVA-S12SD sensor to measure UV radiation.}
+            \resumeItem{Programmed the system in C++ for data acquisition and transmission to ThingSpeak for cloud analytics.}
+            \resumeItem{Executed the full Engineering Design Process (EDP): research, prototyping, and data analysis.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+
+      \resumeProjectHeading
+          {\href{https://bit.ly/4cMsLMF}{\textbf{E-Waste Gold Recovery System}} $|$ \emph{Feedback System, Chemistry, Electronics}}{2022}
+          \resumeItemListStart
+            \resumeItem{Collaborated to develop a system for gold extraction from PC components through chemical processing.}
+            \resumeItem{Executed the full Engineering Design Process (EDP): research, prototyping, and data analysis.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+
+      \resumeProjectHeading
+          {\href{https://bit.ly/4sEhPFt}{\textbf{Piezoelectric Water Condensation System}} $|$ \emph{Physics, Engineering Design}}{2022}
+          \resumeItemListStart
+            \resumeItem{Designed a device using piezoelectric materials to create condensation and generate clean water.}
+            \resumeItem{Executed the full Engineering Design Process (EDP): research, prototyping, and data analysis.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+
+      \resumeProjectHeading
+          {\href{https://bit.ly/3NirO4s}{\textbf{Efficient Rainwater Catcher Model}} $|$ \emph{Engineering Design, Fluid Dynamics}}{2021}
+          \resumeItemListStart
+            \resumeItem{Constructed a model for efficient rainwater collection using minimalist design and fluid dynamics principles.}
+            \resumeItem{Established a foundation in the EDP process, technical research, and data analysis.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%-----------EXTRA ACTIVITIES-----------
+\section{Extra Activities}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {TEDxYouth@ElmenyaSTEM}{2023}
+      {Head of Content Writing}{Elmenya, Egypt}
+      \resumeItemListStart
+        \resumeItem{Led content strategy and social media writing, managing promotional materials and speaker presentations.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Egyptian Ministry of Education -- Elmenya STEM School}{2023}
+      {Certificate of Excellence -- Sports (1st place, Table Tennis)}{Elmenya, Egypt}
+
+    \resumeSubheading
+      {Hippo International English Language Olympiad}{2022}
+      {Participant -- HIPPO 4 (CEFR B1 Level)}{Online}
+      \resumeItemListStart
+        \resumeItem{Achieved a qualifying score in the preliminary round of the 10th international English proficiency competition.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {SmallTalk English \& EF SET}{2022 -- 2024}
+      {Certified Advanced English Proficiency (C1/C1+)}{Online}
+      \resumeItemListStart
+        \resumeItem{Validated advanced spoken English proficiency (C1+) via SmallTalk (June 2024).}
+        \resumeItem{Officially certified C1 Advanced English with a C2 score in Reading via EF SET (Dec 2022).}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+
+\end{document}
